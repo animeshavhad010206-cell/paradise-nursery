@@ -4,21 +4,20 @@ A responsive plant-shop web application built with React, Vite, Redux Toolkit, a
 
 ## Features
 - Landing page with company name and a Get Started button
-- Product listing with categories, prices, and Add to Cart buttons
+- Plant listing with four categories and six unique plants in each category
 - Redux-powered cart state
-- Increase/decrease item quantity and remove items
-- Cart subtotal and item count
-- About Us page
-- Responsive layout for desktop and mobile
+- Add, remove, increase and decrease item quantities
+- Dynamically calculated subtotal and total that update when cart quantities change
+- About Us page and responsive styling
 
 ## Run locally
-1. Install Node.js (LTS).
+1. Install Node.js LTS.
 2. Open a terminal in this project folder.
 3. Run `npm install`.
 4. Run `npm run dev`.
 5. Open the local URL shown by Vite (usually `http://localhost:5173`).
 
-## Build
+## Production build
 Run `npm run build`.
 
 ## Tech stack
